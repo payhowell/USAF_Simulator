@@ -50,9 +50,26 @@ This game is a story-driven, RPG-style simulation of life in the U.S. Air Force,
 - Python 3.11+
 - Pygame 2.6+
 
+🧪 Dev Tools
+Key	Function
+F1	Toggle dev overlay (stats, inventory, mental state)
+ESC	Open pause/save menu
+RETURN	Advance dialogue
+Inventory	Debug inventory system accessible via overlay
+
+Floating log events appear for in-game actions like stress triggers or items gained.
+💡 Credits
+
+This game is a personal project built by @payhowell, combining storytelling, design, and lived experience in the USAF. It is both a creative and cautionary experience.
+🛡 License
+
+To be determined.
+
 ### Setup:
 ```bash
 git clone git@github.com:payhowell/USAF_Simulator.git
 cd USAF_Simulator
 pip install -r requirements.txt  # if you have one, or install pygame manually
 python run.py
+
+
